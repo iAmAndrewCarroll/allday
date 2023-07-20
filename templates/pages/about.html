@@ -1,7 +1,74 @@
-{% extends '_base.html' %}
+{% extends 'base.html' %}
 
 {% block title %}About page{% endblock %}
 
+{% load static %}
+
 {% block content %}
-<h1>About page</h1>
+  <header class="p-3 mb-3 border-bottom">
+    <div class="container">
+      <!-- Header content here -->
+    </div>
+  </header>
+
+  <div class="container">
+    <h1>About page</h1>
+    <p>
+      Welcome to our About page! We are a passionate team dedicated to providing the best experience for our users.
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus est eu placerat gravida. Etiam et felis sit amet
+      est varius facilisis. Suspendisse potenti. Aliquam erat volutpat.
+    </p>
+
+    <div class="row">
+      <div class="col-md-6">
+        <img src="{% static 'images/apple.png' %}" class="img-fluid" alt="Image 1">
+        <p>
+          Image 1 description. Nulla facilisi. Suspendisse in rhoncus dolor. Vivamus vel bibendum tortor.
+        </p>
+      </div>
+      <div class="col-md-6">
+        <img src="{% static 'images/held.png' %}" class="img-fluid" alt="Image 2">
+        <p>
+          Image 2 description. Nunc vel justo vel mauris vestibulum lacinia a sit amet tortor. In quis risus sit amet turpis
+          fermentum eleifend.
+        </p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-6">
+        <img src="{% static 'images/sunSmile.png' %}" class="img-fluid" alt="Image 3">
+        <p>
+          Image 3 description. Nam suscipit placerat magna, et pharetra ex aliquam id. Suspendisse varius id magna nec
+          venenatis.
+        </p>
+      </div>
+      <div class="col-md-6">
+        <img src="{% static 'images/mask.png' %}" class="img-fluid" alt="Image 4">
+        <p>
+          Image 4 description. Etiam euismod et dolor sit amet scelerisque. Morbi ac interdum metus, ut bibendum ex. Cras
+          pulvinar eleifend mi.
+        </p>
+      </div>
+    </div>
+
+    <p>
+      Feel free to explore our website to learn more about our products and services. If you have any questions or
+      suggestions, don't hesitate to contact us.
+    </p>
+
+    <h2>Useful Links:</h2>
+    <ul>
+      <li><a href="https://example.com" target="_blank">Example Website</a></li>
+      <li><a href="https://www.example.com/contact" target="_blank">Contact Us</a></li>
+      <li><a href="https://www.example.com/services" target="_blank">Our Services</a></li>
+    </ul>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+      <span class="text-muted">&copy; Axé All Day 2023</span>
+    </div>
+  </footer>
+
 {% endblock content %}
