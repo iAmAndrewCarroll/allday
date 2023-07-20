@@ -1,74 +1,74 @@
-{% extends 'base.html' %}
+{% extends '_base.html' %}
+{% load static %}
 
 {% block title %}About page{% endblock %}
 
-{% load static %}
-
 {% block content %}
-  <header class="p-3 mb-3 border-bottom">
-    <div class="container">
-      <!-- Header content here -->
-    </div>
-  </header>
-
+<header class="p-3 mb-3 border-bottom">
   <div class="container">
-    <h1>About page</h1>
-    <p>
-      Welcome to our About page! We are a passionate team dedicated to providing the best experience for our users.
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus est eu placerat gravida. Etiam et felis sit amet
-      est varius facilisis. Suspendisse potenti. Aliquam erat volutpat.
-    </p>
+    <!-- Header content here -->
+  </div>
+</header>
 
-    <div class="row">
-      <div class="col-md-6">
-        <img src="{% static 'images/apple.png' %}" class="img-fluid" alt="Image 1">
-        <p>
-          Image 1 description. Nulla facilisi. Suspendisse in rhoncus dolor. Vivamus vel bibendum tortor.
-        </p>
-      </div>
-      <div class="col-md-6">
-        <img src="{% static 'images/held.png' %}" class="img-fluid" alt="Image 2">
-        <p>
-          Image 2 description. Nunc vel justo vel mauris vestibulum lacinia a sit amet tortor. In quis risus sit amet turpis
-          fermentum eleifend.
-        </p>
-      </div>
+<div class="container">
+  <h1>About page</h1>
+  <p>
+    Andrew Thomas Carroll is a modern minstrel, storyteller, facilitator, and speaker. He illuminates opportunities for integration and growth through stories, experiences, and technologies, including psychedelics.<br>
+    <br>
+    On this podcast, Andrew shares his own story of healing and growth through the use of psychedelics and interviews other people who have also found healing and transformation through a diverse collection of powerful tools. Topics include somatic therapy, movement as medicine, the power of the voice, finding your unique purpose, and the use of psychedelics for healing and personal growth.<br>
+    <br>
+    If you're looking for inspiration and guidance on your own journey of healing, growth, and thriving, then this podcast is for you.<br>
+    <br>
+  </p>
+
+  <div class="row">
+    <div class="col-md-6">
+      <img src="{% static 'images/apple.png' %}" class="img-fluid" alt="The Apple">
+      <p>
+        The examination of this embodied experience. Requires a shift of mindset. In this moment you understand that we are one and the same. The archetypes of light and dark become nondualistic. This is the work.
+      </p>
     </div>
-
-    <div class="row">
-      <div class="col-md-6">
-        <img src="{% static 'images/sunSmile.png' %}" class="img-fluid" alt="Image 3">
-        <p>
-          Image 3 description. Nam suscipit placerat magna, et pharetra ex aliquam id. Suspendisse varius id magna nec
-          venenatis.
-        </p>
-      </div>
-      <div class="col-md-6">
-        <img src="{% static 'images/mask.png' %}" class="img-fluid" alt="Image 4">
-        <p>
-          Image 4 description. Etiam euismod et dolor sit amet scelerisque. Morbi ac interdum metus, ut bibendum ex. Cras
-          pulvinar eleifend mi.
-        </p>
-      </div>
+    <div class="col-md-6">
+      <img src="{% static 'images/held.png' %}" class="img-fluid" alt="The Master">
+      <p>
+        Turn away from nothing. Go into the darkest darkness. So thick it creates friction. Know this place. Love this place. For the slave shall serve. The Master. The god. Shall be served.
+      </p>
     </div>
-
-    <p>
-      Feel free to explore our website to learn more about our products and services. If you have any questions or
-      suggestions, don't hesitate to contact us.
-    </p>
-
-    <h2>Useful Links:</h2>
-    <ul>
-      <li><a href="https://example.com" target="_blank">Example Website</a></li>
-      <li><a href="https://www.example.com/contact" target="_blank">Contact Us</a></li>
-      <li><a href="https://www.example.com/services" target="_blank">Our Services</a></li>
-    </ul>
   </div>
 
-  <footer class="footer">
-    <div class="container">
-      <span class="text-muted">&copy; Axé All Day 2023</span>
+  <div class="row">
+    <div class="col-md-6">
+      <img src="{% static 'images/sunSmile.png' %}" class="img-fluid" alt="Image 3">
+      <p>
+        I am. Love and Truth. Hatred and Chaos. Life and Death. Black and White. I am the traveler in darkness. I am the sailor of light. I was conceived in rape. I was born in love. I am the child of the sun. I am the daughter of the moon.
+      </p>
     </div>
-  </footer>
+    <div class="col-md-6">
+      <img src="{% static 'images/mask.png' %}" class="img-fluid" alt="Image 4">
+      <p>
+        Image 4 description. Etiam euismod et dolor sit amet scelerisque. Morbi ac interdum metus, ut bibendum ex. Cras
+        pulvinar eleifend mi.
+      </p>
+    </div>
+  </div>
+
+  <p>
+    Feel free to explore our website to learn more about our products and services. If you have any questions or
+    suggestions, don't hesitate to contact us.
+  </p>
+
+  <h2>Useful Links:</h2>
+  <ul>
+    <li><a href="https://example.com" target="_blank">Example Website</a></li>
+    <li><a href="https://www.example.com/contact" target="_blank">Contact Us</a></li>
+    <li><a href="https://www.example.com/services" target="_blank">Our Services</a></li>
+  </ul>
+</div>
+
+<footer class="footer">
+  <div class="container">
+    <span class="text-muted">&copy; Axé All Day 2023</span>
+  </div>
+</footer>
 
 {% endblock content %}
