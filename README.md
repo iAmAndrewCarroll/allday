@@ -4,7 +4,12 @@
 https://github.com/wsvincent/djangox/assets/766418/a73ea730-a7b4-4e53-bf51-aa68f6816d6a
 
 
+## Additions:
 
+Home, About, Offerings
+* Links to: books, podcasts, coaching calls
+* other stuff
+* I enjoyed this
 
 ## 🚀 Features
 
